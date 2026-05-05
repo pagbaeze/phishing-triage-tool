@@ -1,1 +1,155 @@
+===== Mini Phishing Triage Report =====
+Generated: 2026-05-05 14:20:41.210193
+
+Alert ID: b7b2e3e5-1600-4d7f-aeb7-1a604cf7e36e
+Reported By: jdoe
+Sender: Microsoft <support@micros0ft-login.com>
+Subject: Password Reset Required
+Severity: High
+Classification: Likely Malicious
+Risk Score: 100/100
+Link: http://micros0ft-login.com/reset
+Attachment: 
+Reasons:
+- Known suspicious sender domain: micros0ft-login.com
+- Suspicious keyword found: locked
+- Suspicious keyword found: reset
+- Suspicious keyword found: password
+- Suspicious keyword found: verify
+- Suspicious keyword found: click here
+- Link points to suspicious domain: micros0ft-login.com
+- Link uses insecure HTTP
+- Sender display name does not match trusted domain
+MITRE ATT&CK Mapping:
+- T1585 - Establish Accounts / Impersonation-style infrastructure
+- T1566.002 - Phishing: Spearphishing Link
+- T1204 - User Execution
+Indicators of Compromise (IOCs):
+- Sender Email: support@micros0ft-login.com
+- Sender Domain: micros0ft-login.com
+- URL: http://micros0ft-login.com/reset
+- URL Domain: micros0ft-login.com
+Recommended Action:
+- Block malicious sender/domain at the email or security gateway.
+- Analyze the link and attachment in a secure sandbox environment.
+- Search across mailboxes for similar messages or indicators.
+- Identify whether any users clicked links, downloaded attachments, or submitted credentials.
+- If compromise is confirmed, initiate incident response procedures.
+--------------------------------------------------
+Alert ID: 6961955c-930d-4413-8106-0be83b4dc807
+Reported By: asmith
+Sender: PayPal <billing@paypa1.com>
+Subject: Unusual Activity Detected
+Severity: High
+Classification: Likely Malicious
+Risk Score: 100/100
+Link: https://paypa1.com/login
+Attachment: invoice.zip
+Reasons:
+- Known suspicious sender domain: paypa1.com
+- Suspicious keyword found: confirm
+- Suspicious keyword found: payment
+- Suspicious keyword found: unusual activity
+- Link points to suspicious domain: paypa1.com
+- Dangerous attachment type: .zip
+- Sender display name does not match trusted domain
+MITRE ATT&CK Mapping:
+- T1585 - Establish Accounts / Impersonation-style infrastructure
+- T1566.002 - Phishing: Spearphishing Link
+- T1566.001 - Phishing: Spearphishing Attachment
+- T1204 - User Execution
+Indicators of Compromise (IOCs):
+- Sender Email: billing@paypa1.com
+- Sender Domain: paypa1.com
+- URL: https://paypa1.com/login
+- URL Domain: paypa1.com
+- Attachment: invoice.zip
+- Attachment Type: .zip
+Recommended Action:
+- Block malicious sender/domain at the email or security gateway.
+- Analyze the link and attachment in a secure sandbox environment.
+- Search across mailboxes for similar messages or indicators.
+- Identify whether any users clicked links, downloaded attachments, or submitted credentials.
+- If compromise is confirmed, initiate incident response procedures.
+--------------------------------------------------
+Alert ID: 6f1e4380-ade7-4aa1-97e1-bce35c2e17f3
+Reported By: mjohnson
+Sender: IT Support <ithelp@account-verify.net>
+Subject: Account Alert
+Severity: High
+Classification: Likely Malicious
+Risk Score: 100/100
+Link: http://bit.ly/secure-login
+Attachment: security_update.docm
+Reasons:
+- Known suspicious sender domain: account-verify.net
+- Suspicious keyword found: account alert
+- Suspicious keyword found: verify
+- URL shortener detected: bit.ly
+- Link uses insecure HTTP
+- Dangerous attachment type: .docm
+- Sender display name does not match trusted domain
+MITRE ATT&CK Mapping:
+- T1585 - Establish Accounts / Impersonation-style infrastructure
+- T1566.002 - Phishing: Spearphishing Link
+- T1566.001 - Phishing: Spearphishing Attachment
+- T1204 - User Execution
+Indicators of Compromise (IOCs):
+- Sender Email: ithelp@account-verify.net
+- Sender Domain: account-verify.net
+- URL: http://bit.ly/secure-login
+- URL Domain: bit.ly
+- Attachment: security_update.docm
+- Attachment Type: .docm
+Recommended Action:
+- Block malicious sender/domain at the email or security gateway.
+- Analyze the link and attachment in a secure sandbox environment.
+- Search across mailboxes for similar messages or indicators.
+- Identify whether any users clicked links, downloaded attachments, or submitted credentials.
+- If compromise is confirmed, initiate incident response procedures.
+--------------------------------------------------
+Alert ID: f6f6ec6a-250e-4d0e-b10f-f39d5fffefde
+Reported By: tlee
+Sender: Amazon <notifications@amazon.com>
+Subject: Order Confirmation
+Severity: Low
+Classification: Low Risk
+Risk Score: 15/100
+Link: https://amazon.com/orders
+Attachment: 
+Reasons:
+- Suspicious keyword found: confirm
+MITRE ATT&CK Mapping:
+- T1204 - User Execution
+Indicators of Compromise (IOCs):
+- Sender Email: notifications@amazon.com
+- Sender Domain: amazon.com
+- URL: https://amazon.com/orders
+- URL Domain: amazon.com
+Recommended Action:
+- Log the report and continue monitoring.
+--------------------------------------------------
+Alert ID: b31e415f-4609-4b53-b7df-0a7c60ebb36f
+Reported By: dnguyen
+Sender: IT Support <it-support@company-helpdesk.com>
+Subject: Password Expiring Soon
+Severity: Low
+Classification: Low Risk
+Risk Score: 45/100
+Link: https://company-helpdesk.com/reset
+Attachment: 
+Reasons:
+- Suspicious keyword found: password
+- Sender display name does not match trusted domain
+MITRE ATT&CK Mapping:
+- T1585 - Establish Accounts / Impersonation-style infrastructure
+- T1204 - User Execution
+Indicators of Compromise (IOCs):
+- Sender Email: it-support@company-helpdesk.com
+- Sender Domain: company-helpdesk.com
+- URL: https://company-helpdesk.com/reset
+- URL Domain: company-helpdesk.com
+Recommended Action:
+- Log the report and continue monitoring.
+--------------------------------------------------
 
