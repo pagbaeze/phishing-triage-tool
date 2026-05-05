@@ -1,0 +1,10 @@
+reported_by,sender_name,sender_email,subject,body,link,attachment
+jdoe,Microsoft,support@micros0ft-login.com,Password Reset Required,Your account will be locked. Click here to verify your password,http://micros0ft-login.com/reset,
+asmith,PayPal,billing@paypa1.com,Unusual Activity Detected,Please confirm your payment information immediately,https://paypa1.com/login,invoice.zip
+bwilliams,HR,hr@company.com,Updated Benefits Information,Please review the attached benefits document,https://company.com/benefits,benefits.pdf
+mjohnson,IT Support,ithelp@account-verify.net,Account Alert,Verify your account to avoid suspension,http://bit.ly/secure-login,security_update.docm
+tlee,Amazon,notifications@amazon.com,Order Confirmation,Your order has been shipped,https://amazon.com/orders,
+kpatel,Microsoft,alerts@microsoft.com,Security Notification,We noticed a new sign-in to your account,https://account.microsoft.com/security,
+rjohnson,Unknown,info@updates-service.com,Account Update,Please review your account information,https://updates-service.com/login,
+mgarcia,Dropbox,no-reply@dropbox.com,File Shared With You,A file has been shared with you,https://dropbox.com/s/abc123,
+dnguyen,IT Support,it-support@company-helpdesk.com,Password Expiring Soon,Your password will expire soon please update it,https://company-helpdesk.com/reset,
